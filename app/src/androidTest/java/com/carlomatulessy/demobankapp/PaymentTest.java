@@ -50,7 +50,7 @@ public class PaymentTest {
 
         ViewInteraction appCompatEditText3 = onView(
                 allOf(withId(R.id.transfer_accountnumber_edittext), isDisplayed()));
-        appCompatEditText3.perform(replaceText("NL34INGB1234123499"), closeSoftKeyboard());
+        appCompatEditText3.perform(replaceText("NL34INGB12345678990"), closeSoftKeyboard());
 
         pressBack();
 
